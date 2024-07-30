@@ -1,0 +1,24 @@
+:root {
+	color-scheme: dark;
+	color: rgba(255, 255, 255, 0.87);
+	background: linear-gradient(to bottom, #242424, 95%, #949494);
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 50px;
+}
+
+#app {
+	display: flex;
+	overflow-x: auto;
+}
+
+.success {
+	margin-left: 50px;
+}
+
+h1 {
+	text-transform: capitalize;
+}
